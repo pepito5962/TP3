@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     width: 100%;
     margin: 0px;
@@ -20,7 +21,6 @@ body {
 
 #logo {
     display: inline-block;
-    background-image: url(image/logo.jpg);
     margin: 1%;
     height: 5vw;
     width: 5vw;
@@ -42,6 +42,9 @@ body {
 
 #menu form {
     display: block;
+}
+.img_mobile {
+    display: none;
 }
 
 #header a {
@@ -81,6 +84,45 @@ body {
     padding: 0;
     background-size: contain;
 }
+
+
+#logo {
+    display: inline-block;
+    margin: 1%;
+    height: 5vw;
+    width: 5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: inline-block;
+
+    width: 100%;
+    border-bottom: 0.1rem solid black;
+    margin-bottom: 1.0rem;
+}
+
+#nav {
+    width: 83%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#recherche {
+    border-radius: 5%;
+}
+
+#menu_tel{
+    display: none;
+}
+
+#img_tel{
+    display: none;
+}
+
 
 
 /*-------------------------------------------------*/
@@ -316,14 +358,20 @@ body {
         padding-left: 0rem;
     }
 
-
+    #menu_tel{
+        display: inline-block;
+    }
 
     #logo {
         display: inline-block;
         width: 15vw;
         height: 15vw;
-        padding-right: 2.5rem;
-        padding-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+    }
+
+    #img_tel{
+        display: inline-block;
     }
 
     .lignetab {
@@ -345,6 +393,9 @@ body {
         text-align: left;
         padding-left: 0rem;
     }
+    .img_moble{
+        display: inline-block;
+    }
 
 
 }
@@ -353,35 +404,4 @@ body {
 
 
 
-.img_mobile {
-    display: none;
-}
 
-#logo {
-    display: inline-block;
-    margin: 1%;
-    height: 5vw;
-    width: 5vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-header {
-    display: inline-block;
-
-    width: 100%;
-    border-bottom: 0.1rem solid black;
-    margin-bottom: 1.0rem;
-}
-
-#nav {
-    width: 83%;
-    text-align: right;
-    display: inline-block;
-    vertical-align: top;
-
-}
-
-#recherche {
-    border-radius: 5%;
-}
